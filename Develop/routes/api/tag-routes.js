@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
   try {
     const tagData = await Tag.update(
       {
-        category_name: req.body.category_name,
+        category_name: req.body.tag_name,
       },
       {
         returning: true,

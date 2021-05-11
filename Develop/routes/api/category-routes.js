@@ -42,7 +42,7 @@ router.post('/', (req, res) => {
   // create a new category
   try {
     const categoryData = await Category.create(req.body);
-    res.status(200).json(data);
+    res.status(200).json(categoryData);
   } catch (err) {
     res.status(500).json(err);
   }
@@ -62,7 +62,7 @@ router.put('/:id', (req, res) => {
         },
       }
     );
-    if (!data) {
+    if (!categoryData) {
       res.status(404).json({ message: "Category ID not found- no category was updated."});
       return;
     }
