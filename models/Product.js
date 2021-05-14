@@ -26,7 +26,7 @@ Product.init(
       allowNull: false,
       unique: true,
       validate: {
-        isEmail: true,
+        isDecimal: true,
   },
 },
   stock: {
