@@ -1,7 +1,7 @@
 # 13-ORM-E-Commerce-Back-end
 
 # Description
-
+My task was to build the back end for an e-commerce site by modifying starter code. I configured a working Express.js API to use Sequelize to interact with a MySQL database.
 
 # Table of Contents
 1. [Title](Title)
@@ -27,7 +27,7 @@ Myself
 <a href="">ORM E-Commerce</a>
 
 ## Screenshot
-![screenshot]()
+![screenshot](Assets/orm.png)
 
 
 
