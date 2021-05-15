@@ -70,7 +70,7 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id
       }
     });
-
+       
     if (!categoryData) {
       res.status(404).json({ message: 'Category ID not found-nothing deleted.' });
       return;
