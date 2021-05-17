@@ -24,7 +24,7 @@ Myself
 ## License
 ![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
 ## Demo
-<a href="https://youtu.be/vGCQWuXDp0M">ORM E-Commerce</a>
+<a href="https://www.youtube.com/watch?v=vU4fVzlI0mA">ORM E-Commerce</a>
 
 ## Screenshot
 ![screenshot](Assets/orm.png)
